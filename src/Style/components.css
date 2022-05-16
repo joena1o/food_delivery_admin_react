@@ -1,0 +1,260 @@
+.loginNav{
+    position: absolute;
+    top: 0;
+    background-color: #000;
+    width: 100%;
+    color: white;
+    
+}
+.loginNav .nav-inner{
+    padding: 20px;
+}
+
+.login-inner{
+    width: 100%;
+    background-color: rgb(49, 48, 48);
+    height: 100vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-form{
+
+    padding: 30px;
+    width: 50%;
+    /* height: 40vh; */
+    opacity: 0.7;
+    background-color: #000;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.login-form input{
+    padding: 10px;
+    margin: 10px 10px;
+}
+.login-form button{
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+.dash-nav{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    display: inline-flex;
+    box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+    justify-content: center;
+}
+
+.dash-brand{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 17px;
+
+}
+
+.dash-inner{
+    padding: 20px 10px;
+    width: 90vw;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.dash-navs ul{
+    list-style: none;
+    display: inline-flex;
+
+}
+
+.dash-navs li{
+    padding: 10px;
+}
+
+
+.side-nav{
+
+    position: absolute;
+    height: 90vh;
+    width: 17vw;
+    overflow-y: hidden ;
+
+    background-color: rgb(49, 49, 49);
+    /* box-shadow: rgba(149,157,165,0.2) 0px 8px 24px; */
+
+}
+
+.side-navs{
+    padding: 30px 20px;
+  
+
+}
+
+.side-navs ul{
+    list-style: none;
+    text-transform: uppercase;
+    color: rgb(253, 251, 251);
+
+}
+.side-navs li{
+    padding: 14px 10px ;
+   /* // text-transform: uppercase; */
+}
+.side-navs li:nth-last-child(1){
+    color: red;
+    padding: 20px 10px;
+
+}
+
+.layout-container{
+    position: absolute;
+    right: 0%;
+    color: black;
+    top: 12vh;
+    width: 83.5%;
+    height: 88vh;
+    /* background-color: white; */
+}
+.layout-inner{
+    padding: 20px;
+    height: 86.5vh;
+    z-index: 1;
+    overflow-y: scroll ;
+}
+
+.dash-card{
+    background-color: rgb(255, 252, 251);
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    height: 20vh;
+    align-items: center;
+    box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+}
+
+.dash-card-inner .content{
+
+    font-size: 15px;
+
+}
+
+.dash-card-inner{
+    width: 100%;
+    padding: 30px 10px;
+    display: inline-flex;
+    justify-content: space-evenly;
+
+}
+
+.dash-card-inner .content{
+    width: 50%;
+}
+
+.dash-card-inner .img{
+    width: 20%;
+}
+
+.dash-card-inner img{
+    width: 85%;
+}
+
+.dash-route, .order-route{
+    width: 100%;
+    height: 82vh;
+}
+
+.dash-grid{
+    display: grid;
+    row-gap: 20px;
+    cursor: pointer;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.order-chart{
+
+    /* height: 50vh; */
+    width: 100%;
+    border-radius: 10px;
+    
+    margin: 20px 0px;
+    background-color: white;
+    box-shadow: rgba(149,157,165,0.2) 10px 8px 30px;
+
+}
+.order-chart .filter{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.order-chart .filter button{
+    background-color: green;
+    padding: 12px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.chart-inner{
+    padding: 20px;
+}
+.chart-inner table{
+    width: 100%;
+}
+.chart-inner table td{
+    padding: 20px 5px;
+}
+.chart-inner button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.search-bar{
+    width: 100%;
+
+}
+thead{
+    font-weight: bold;
+    color: grey;
+}
+
+.search-bar-inner input{
+    width: 90%;
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 15px;
+    background-color: aliceblue;
+    border: none;
+    
+}
+.search-bar-inner button{
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid green;
+    background-color: green;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link2{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    text-decoration: none;
+    color: orange;
+}
