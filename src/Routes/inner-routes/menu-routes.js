@@ -33,12 +33,9 @@ function MenuRoute(){
 
      function LoadDelete(id){
 
-
       setID(id);
 
       deleteShow();
-
-
 
 
      }
@@ -137,6 +134,9 @@ function MenuRoute(){
             setPrice(1000);
             setCat("");
             setStat("");
+            setFile();
+            setFilename("");
+
 
             EditClose();
 
@@ -170,6 +170,9 @@ function MenuRoute(){
             ).then((value)=>{
   
               console.log(value.data);
+
+              setFile();
+              setFilename("");
   
   
             });

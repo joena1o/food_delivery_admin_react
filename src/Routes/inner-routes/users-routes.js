@@ -61,13 +61,6 @@ function UserRoute(){
 
                         </div>
 
-                        {/* <div style={{padding:"20px"}}>
-                    
-                    <button>Add new Item</button>
-
-                        </div> */}
-
-
 
 
 
@@ -87,13 +80,11 @@ function UserRoute(){
                         <thead>
                             <td>ID No.</td>
                             <td>Customers Name</td>
-                            <td>Gender</td>
+                            {/* <td>Gender</td> */}
                             <td>Address</td>
                             <td>Contact</td>
                             <td>Email Address</td>
                             <td>Location</td>
-                            {/* <td>Lat</td>
-                            <td>Long</td> */}
                             <td>Action 1</td>
                             <td>Action 2</td>
                         </thead>
@@ -107,13 +98,10 @@ function UserRoute(){
                                 <tr>
                                 <td>1</td>
                                 <td>{value['name'] + " " + value['lastname'] }</td>
-                                <td>{value['gender']}</td>
                                 <td>{value['address']}</td>
                                 <td>{value['phone']}</td>
                                 <td>{value['email']}</td>
                                 <td>{value['location']}</td>
-                                {/* <td>Lat</td>
-                                <td>Long</td> */}
                                 <td><button>Preview</button></td>
                                 <td><button style={{backgroundColor:"red"}}>Delete</button></td>
                             </tr>
